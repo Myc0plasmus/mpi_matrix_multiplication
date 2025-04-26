@@ -2,7 +2,7 @@
 
 This repository contains few variants of cannon alogrithm for matrix multiplication implemented in pure C using MPI. 
 
-## Prerequsities 
+## Prerequsites 
 
 Nix-shell with necessary environment can be entered via:
 ``
