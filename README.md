@@ -5,9 +5,9 @@ This repository contains few variants of cannon alogrithm for matrix multiplicat
 ## Prerequsites 
 
 Nix-shell with necessary environment can be entered via:
-``
+```
 nix-shell
-``
+```
 
 ## Predefined constants
 Some important constants are defined at the beginning of each file
