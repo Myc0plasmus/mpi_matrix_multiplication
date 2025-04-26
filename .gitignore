@@ -1,0 +1,10 @@
+*.csv
+liczby.txt
+mpi_matrix_multiplication
+mpi_alt_matrix_multiplication
+mpi_row_matrix_multiplication
+mpi_swt_matrix_multiplication
+mpi_src_matrix_multiplication
+mpi_kom_matrix_multiplication
+mpi_seq_matrix_multiplication_comparison
+dataGenerator

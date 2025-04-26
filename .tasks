@@ -1,0 +1,12 @@
+# vim: set fenc=utf-8 ft=taskini:
+# see: https://github.com/skywind3000/asynctasks.vim/wiki/Task-Config
+
+# define a new task named "file-build"
+[generate_data_and_run]
+command=gcc dataGenerator.c -o dataGenerator && ./dataGenerator && mpicc mpi_matrix_multiplication.c -o mpi_matrix_multiplication && mpirun -np 4 ./mpi_matrix_multiplication
+cwd=$(VIM_ROOT)
+output=terminal
+pos=my_toggleterm
+save=1
+
+
